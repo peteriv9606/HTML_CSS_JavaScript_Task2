@@ -21,15 +21,3 @@ function showC(paraid){
     }else
     alert("No paragraph to show!");
 }
-
-function addTab(){
-    var i=1;
-    while(document.getElementById('p'+i))
-    {
-        i++;
-        if(!document.getElementById('p'+i)){
-            alert("a"+ i + " - not existing\n"+"p"+ i + " - not existing"); 
-        }
-    }
-    //document.getElementById("customTab").id = ""
-}
