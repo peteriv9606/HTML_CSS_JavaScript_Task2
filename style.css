@@ -36,6 +36,13 @@ div.tab > div.button {
     padding: 5px 50px;
     transition: 0.2s;
   }
+  div.newWrap{
+    background-color: red;
+  }
+  div.newWrap > p.fromTab{
+    background-color: whitesmoke;
+  }
+
   @media screen and (max-width: 1000px) {
     
     div.wrapper > div.tab{
