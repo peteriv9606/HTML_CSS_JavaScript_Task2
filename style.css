@@ -35,6 +35,11 @@ div.menu > a {
     border: 1px solid red;
 }
 
+div.menu > a:hover {
+    background-color:red;
+    text-decoration: underline;
+}
+
 div.newWrap > p.fromTab{
     display: none;
     text-align: center;
